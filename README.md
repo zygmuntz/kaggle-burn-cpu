@@ -9,10 +9,11 @@ Code for the [Burn CPU, burn](http://inclass.kaggle.com/c/model-t4) competition 
 	`hyperopt_logs` - results from each driver
 	`predict.py` - select best params from a log, train and save predictions
 	
-	auxillary files:
-	`bag_best.py` - select a few best models from a log, train and average their predictions (using the validation set)
+	auxillary files for validation:
+	`bag_best.py` - select a few best models from a log, train and average their predictions 
 	`rerun_best.py` - select a few best models from a log, re-run them to check the scores
 	`load_data.py` - a module for loading data used by `bag_best.py` and `rerun_best.py`
 	
-	
+See [http://fastml.com/extreme-learning-machines-and-optimizing-hyperparams-with-hyperopt/](http://fastml.com/extreme-learning-machines-and-optimizing-hyperparams-with-hyperopt/) for description.
+
 License: BSD
